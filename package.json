@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx json-server --watch db.json --port 8008"
+    "start": "npx json-server db.json --port 5001",
+    "json-server": "json-server --watch db.json --port 5001"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
-  }
+    "json-server": "^^0.17.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himanshu1883/InstagramClone-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Himanshu1883/InstagramClone-API/issues"
+  },
+  "homepage": "https://github.com/Himanshu1883/InstagramClone-API#readme",
+  "description": ""
 }
